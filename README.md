@@ -51,7 +51,7 @@ The **Chatting with Local LLaMA Model Offline** project is a Python-based applic
     Execute the main script to start the chat system:
 
     ```bash
-    python kb.py
+    python offlineChatwithLLM.py
     ```
 
     You will be prompted to enter queries, and the system will respond based on the indexed data and the LLaMA model.
