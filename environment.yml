@@ -1,0 +1,13 @@
+name: Chatting-with-Local-LLaMA-Model-Offline
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - openjdk=11
+  - pip
+  - pipx
+  - pip:
+    - sentence-transformers
+    - elasticsearch
+    - llama-cpp
