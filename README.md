@@ -65,15 +65,11 @@ The **Chatting with Local LLaMA Model Offline** project is a Python-based applic
 
 For more details on the LLaMA model used in this project, refer to the [LLaMA CPP Python GitHub Repository](https://github.com/abetlen/llama-cpp-python).
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contributing
 
 If you wish to contribute to this project, please fork the repository and create a pull request with your proposed changes.
 
 ## Contact
 
-For any questions or issues, please contact [Your Name](mailto:your.email@example.com).
+For any questions or issues, please contact [Your Name](mailto:anas.azam40@gmail.com).
 
