@@ -14,7 +14,7 @@ The **Chatting with Local LLaMA Model Offline** project is a Python-based applic
 
 ### Prerequisites
 
-- **Conda**: Ensure you have Conda installed. You can download it from [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/distribution).
+- **Python 3.8+**: Ensure you have Python 3.8 or later installed. You can download it from [Python Downloads](https://www.python.org/downloads/).
 
 ### Setting Up the Environment
 
@@ -25,20 +25,28 @@ The **Chatting with Local LLaMA Model Offline** project is a Python-based applic
     cd your-repository
     ```
 
-2. **Create and Activate Conda Environment:**
+2. **Create and Activate Python Virtual Environment:**
 
     ```bash
-    conda env create -f environment.yml
-    conda activate local_llama_chat
+    python -m venv venv
+    source venv/bin/activate  # On Windows use: venv\Scripts\activate
     ```
 
-3. **Install Elasticsearch:**
+3. **Install Dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Install Elasticsearch:**
 
     Download and install Elasticsearch from [Elasticsearch Downloads](https://www.elastic.co/downloads/elasticsearch). Follow the instructions to start the Elasticsearch service.
 
     ```bash
     ./bin/elasticsearch
     ```
+
+    **Note:** Ensure that Elasticsearch is running on `http://localhost:9200` for the application to work correctly.
 
 ## Usage
 
@@ -72,4 +80,3 @@ If you wish to contribute to this project, please fork the repository and create
 ## Contact
 
 For any questions or issues, please contact [Muhammad-Anas-Azam-Bhatti](mailto:anas.azam40@gmail.com).
-
