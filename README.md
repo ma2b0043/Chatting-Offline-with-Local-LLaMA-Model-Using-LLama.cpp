@@ -48,11 +48,23 @@ The **Chatting with Local LLaMA Model Offline** project is a Python-based applic
 
     **Note:** Ensure that Elasticsearch is running on `http://localhost:9200` for the application to work correctly.
 
-5. **Add the LLaMA Model File:**
+5. **Install `llama.cpp` and Set Up the Model:**
 
-    The project requires a quantized LLaMA model file to function. You need to download the model file (e.g., `model.gguf`) and place it in the `models/` directory of the project. 
+    - Install `llama.cpp` using Homebrew:
 
-    The file should be located at: `models/model.gguf`.
+        ```bash
+        brew install llama.cpp
+        ```
+
+    - Download and set up the LLaMA model:
+
+        ```bash
+        llama-cli --hf-repo reach-vb/Meta-Llama-3.1-8B-Instruct-Q6_K-GGUF \
+        --hf-file meta-llama-3.1-8b-instruct-q6_k.gguf \
+        -p "Hello?" --ctx-size 8192
+        ```
+
+    **Note:** You need to download the model file (`meta-llama-3.1-8b-instruct-q6_k.gguf`) and place it in the `models/` directory of the project.
 
 ## Usage
 
