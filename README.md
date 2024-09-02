@@ -48,6 +48,12 @@ The **Chatting with Local LLaMA Model Offline** project is a Python-based applic
 
     **Note:** Ensure that Elasticsearch is running on `http://localhost:9200` for the application to work correctly.
 
+5. **Add the LLaMA Model File:**
+
+    The project requires a quantized LLaMA model file to function. You need to download the model file (e.g., `model.gguf`) and place it in the `models/` directory of the project. 
+
+    The file should be located at: `models/model.gguf`.
+
 ## Usage
 
 1. **Prepare Data:**
