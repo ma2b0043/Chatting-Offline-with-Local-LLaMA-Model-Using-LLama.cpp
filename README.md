@@ -1,4 +1,4 @@
-# Chatting with Local LLaMA Model Offline
+# Chatting Offline with Local LLaMA Model Using LLama.cpp
 
 ## Overview
 
